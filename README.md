@@ -25,22 +25,12 @@ The dataset (`breast_cancer.csv`) contains numerical features related to **tumor
 - **Metrics:** `Accuracy`, `AUC`
 
 ---
+# Breast Cancer Prediction
 
-## ⚙️ Setup & Execution
+## 2️⃣ Run the Model
+To run the breast cancer prediction model, execute the following command in your terminal:
 
-### 1️⃣ Install Dependencies
 ```bash
-pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
-2️⃣ Run the Model
-bash
-Copy
-Edit
 python breast_cancer_prediction.py
-3️⃣ Model Evaluation
-✅ Test Accuracy & AUC are printed after training.
-✅ A confusion matrix can be added for deeper insights.
 
-4️⃣ Making Predictions
-🔹 Input a new sample tumor feature vector
-🔹 The model predicts whether the tumor is Malignant or Benign
 
